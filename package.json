@@ -1,0 +1,15 @@
+{
+  "name": "react-three-swc",
+  "version": "0.1.0",
+  "description": "",
+  "keywords": [],
+  "author": "Cody Bennett (https://github.com/CodyJasonBennett)",
+  "homepage": "https://github.com/CodyJasonBennett/react-three-swc",
+  "repository": "https://github.com/CodyJasonBennett/react-three-swc",
+  "license": "MIT",
+  "main": "target/wasm32-wasi/release/react_three_swc.wasm",
+  "scripts": {
+    "build": "cargo build --target wasm32-wasi --release"
+  },
+  "preferUnplugged": true
+}
